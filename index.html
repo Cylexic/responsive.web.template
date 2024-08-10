@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Playground</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel= icon type= image/x-icon href= "/assets/Pink Shape.svg">
+  </head>
+  <body class="bg-amber-50">
+    <div class="min-h-screen flex flex-col px-6 py-3 gap-16 md:px-10 md:py-7 lg:px-16">
+        <header class="flex justify-between">
+            <div class="flex items-center justify-center gap-2">
+               <img src="assets/Logo.svg" alt="logo">
+               <button class="bg-gradient-to-r from-orange-400 to-red-400 text-xs text-white px-2.5 py-1.5 rounded-2xl">Hosterr is hiring!</button> 
+            </div>
+            <ul class="hidden lg:flex lg:justify-center items-center text-gray-400 gap-6">
+                <li>
+                    <a href="#">Plans</a>
+                </li>
+                <li>
+                    <a href="#">Find domain</a>
+                </li>
+                <li>
+                    <a href="#">Why Hosterr</a>
+                </li>
+            </ul>
+            <div class="hidden lg:flex justify-center items-center gap-6">
+                <a href="#" class="text-gray-400">Sign In</a>
+                <button class="bg-blue-300 rounded-md px-4 py-3 font-medium text-white font-serif">Join Waitlist</button>
+            </div>
+            <div>
+                <div class="lg:hidden">
+                <i class="fa-solid fa-bars"></i> 
+            </div>
+            </div>
+        </header>
+
+        <main class="flex-1 lg:flex lg:items-center lg:space-x-12">
+            <div class="flex items-center justify-center flex-1 lg:justify-start">
+                <div class="relative">
+                    <img src="assets/Blue Shape.svg" alt="blueshape" class="h-64 rotate-45 md:h-72">
+                    <img src="assets/Pink Shape.svg" alt="pinkshape" class="absolute h-64 rotate-[30deg] top-0 left-0">
+                    <img src="assets/Purple Shape.svg" alt="purpleshape" class="absolute h-64 rotate-[15deg] top-0 left-0">
+                    <img src="assets/Hero Image (Model).png" alt="heroimage" class="absolute h-64 top-0 left-0">
+                </div>
+            </div>
+            <div class="flex-1 space-y-4 mt-16 lg:mt-0">
+                <h1 class="text-5xl font-bold leading-tight font-serif">Host your website in less than 5 minutes!</h1>
+                <p class="text-gray-600">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+                <form action="" class="flex flex-col gap-4 md:flex-row">
+                    <input type="email" placeholder="Enter e-mail address" class="rounded-md px-4 py-3 placeholder:text-gray-400">
+                    <button class="bg-blue-300 rounded-md px-4 py-3 font-medium text-white font-serif">Join Waitlist</button>
+                </form>
+                <div class="flex gap-2">
+                    <img src="assets/Checkmark.svg" alt="checkmark">
+                    <p class="text-gray-400">No spam, ever. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="flex flex-col gap-12 md:flex-col md:justify-between">
+            <ul class="flex gap-6 text-gray-400">
+                <li>
+                <a href="#">Facebook</a>
+            </li>
+            <li>
+                <a href="#">Instagram</a>
+            </li>
+            <li>
+                <a href="#">Youtube</a>
+            </li>
+            </ul>
+            <div class="flex gap-2">
+                <img src="assets/Help Avatar.svg" alt="help-avatar">
+                <div>
+                    <p class="font-light">Have any questions?</p>
+                    <a href="#" class="font-medium">Talk to a specialist</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+  </body>
+</html>
